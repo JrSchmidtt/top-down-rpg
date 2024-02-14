@@ -57,3 +57,7 @@ func animate():
 func _on_attack_timer_timeout():
 	is_attacking = false
 	set_physics_process(true)
+
+# func _on_attack_area_body_entered(body):
+# 	if _body.is_in_group("mob"):
+# 		_body.damage(10)
