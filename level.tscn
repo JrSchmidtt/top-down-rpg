@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://buqylgdv5qc3b"]
+
+[ext_resource type="PackedScene" uid="uid://c3ib3jlb0iky0" path="res://terrain/terrain.tscn" id="1_makef"]
+[ext_resource type="PackedScene" uid="uid://0iwixbo1u1tr" path="res://character/character.tscn" id="2_5e765"]
+
+[node name="Level" type="Node2D"]
+
+[node name="Terrain" parent="." instance=ExtResource("1_makef")]
+
+[node name="Character" parent="." instance=ExtResource("2_5e765")]
+position = Vector2(201, 109)
